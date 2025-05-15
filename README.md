@@ -1,2 +1,3 @@
 # bookbot
-CLI application that does static analysis on entire novels.
+
+BookBot is my first [Boot.dev](https://www.boot.dev) project!
