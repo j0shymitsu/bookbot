@@ -1,11 +1,6 @@
 def count_words(text):
     words = text.split()
-    num_words = 0
-
-    for word in words:
-        num_words += 1
-
-    print(f"{num_words} words found in the document")
+    return len(words)
 
 def count_characters(passage):
     string_to_int = {}
@@ -16,3 +11,17 @@ def count_characters(passage):
         string_to_int[character] += 1
 
     return string_to_int
+
+def sort_on(dict):
+    return dict["num"]
+    
+def sorted_dict(char_counts):
+    result = []
+    
+    for char, count in char_counts.items():
+        result.append({"char": char, "num": count})
+
+    result.sort(reverse=True, key=sort_on)
+
+    return result
+    
