@@ -1,7 +1,9 @@
+# return num of words in passage
 def count_words(text):
     words = text.split()
     return len(words)
 
+# return dictionary of characters and their counts
 def count_characters(passage):
     string_to_int = {}
 
@@ -12,9 +14,11 @@ def count_characters(passage):
 
     return string_to_int
 
+# function for dictionary key
 def sort_on(dict):
     return dict["num"]
-    
+
+# return sorted dictionary by highest to lowest character count    
 def sorted_dict(char_counts):
     result = []
     

@@ -7,6 +7,7 @@ def get_book_text(path_to_file):
     return file_contents
 
 def main():
+    # error if less than 2 arguments
     if len(sys.argv) < 2:
         print("Usage: python3 main.py <path_to_book>")
         sys.exit(1)

@@ -1,3 +1,5 @@
-# bookbot
+# BOOKBOT   
 
-BookBot is my first [Boot.dev](https://www.boot.dev) project!
+---
+
+A simple web app that performs static analysis on text.
